@@ -1,0 +1,145 @@
+.bg_body {
+    background-color: rgb(192, 182, 182);
+    background-image: linear-gradient(to right top,
+            #5e74bd,
+            #7ba4b5,
+            #7e95cf,
+            #8ca2d6,
+            #83addd,
+            #7cb7e1,
+            #72a5b1,
+            #729ec0,
+            #77a4b9,
+            #c9e0e8);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_div {
+    width: 1000px;
+    background: rgb(239, 238, 238);
+    height: 600px;
+    border-radius: 24px;
+    display: flex;
+    padding: 0px 0px 0px 0px;
+}
+
+.img_container {
+    width: 50%;
+    background-image: linear-gradient(to right top, #4d5656, #4c4f54);
+    border-radius: 24px;
+    object-fit: cover;
+
+
+}
+
+.input_container {
+    margin: 18px 0px;
+    padding: 0px 86px;
+    width: 100%;
+}
+
+.input_container div {
+    width: 100%;
+}
+
+.cred_container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+
+}
+
+.vertical {
+    border-left: 1px solid black;
+    height: 38px;
+}
+
+.h1_text_auth {
+    font-size: 28px;
+    color: #385A64;
+    margin-top: 10px;
+    /* margin-bottom: 12px; */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.h1_text {
+    font-size: 28px;
+    color: #9597cc;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hrsect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.838);
+    margin: 8px 0px;
+}
+
+
+
+.h1_text_1 {
+    font-size: 28px;
+    color: #9597cc;
+    margin-top: 86px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.btn_container {
+    width: 100%;
+    padding: 0px 86px;
+
+}
+
+.login_btn {
+    background-color: #9597cc;
+    width: 100%;
+    margin-top: 18px;
+    border-radius: 4px;
+    height: 48px;
+    color: white;
+}
+
+.login_btn:hover {
+    opacity: 0.8;
+}
+
+
+.forgot_btn {
+    background-color: #9597cc;
+    width: 100%;
+    margin-top: 18px;
+    border-radius: 4px;
+    height: 48px;
+    color: white;
+}
+
+.forgot_btn:hover {
+    background-color: #c5c6d4;
+    color: white;
+}
+
+.back_btn_container {
+    color: grey;
+    width: 100%;
+    padding: 10px 86px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+}
