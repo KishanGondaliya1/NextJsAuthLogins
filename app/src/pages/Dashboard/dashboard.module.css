@@ -1,0 +1,26 @@
+.bg_body {
+    background-color: rgb(192, 182, 182);
+    background-image: linear-gradient(to right top,
+            #5e74bd,
+            #7ba4b5,
+            #7e95cf,
+            #8ca2d6,
+            #83addd,
+            #7cb7e1,
+            #72a5b1,
+            #729ec0,
+            #77a4b9,
+            #c9e0e8);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_div {
+    width: 400px;
+    background: rgb(239, 238, 238);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
