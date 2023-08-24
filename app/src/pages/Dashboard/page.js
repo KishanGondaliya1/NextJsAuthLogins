@@ -19,7 +19,7 @@ const Dashboard = (params) => {
                             <h4 className="text-center">{id ? "Signup success!" : "Login success!"}</h4>
                         </div>
                         {
-                            id === 0 ?
+                            id ?
                                 <div className='items-center pl-2'>
                                     <button onClick={() => router.push('/src/pages/Login')} className='text-center'>back to login page</button>
                                 </div>
